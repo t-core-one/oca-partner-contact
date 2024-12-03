@@ -1,15 +1,10 @@
 # Copyright 2020 Camptocamp SA
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
 
-from odoo.tests.common import SavepointCase
+from odoo.addons.base.tests.common import BaseCommon
 
 
-class TestPartnerTitle(SavepointCase):
-    @classmethod
-    def setUpClass(cls):
-        super().setUpClass()
-        cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
-
+class TestPartnerTitle(BaseCommon):
     def test_default_order(self):
         partner_titles = self.env["res.partner.title"].search([])
         self.assertEqual(
