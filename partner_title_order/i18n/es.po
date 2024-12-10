@@ -17,21 +17,6 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. module: partner_title_order
-#: model:ir.model.fields,field_description:partner_title_order.field_res_partner_title__display_name
-msgid "Display Name"
-msgstr "Mostrar Nombre"
-
-#. module: partner_title_order
-#: model:ir.model.fields,field_description:partner_title_order.field_res_partner_title__id
-msgid "ID"
-msgstr "ID"
-
-#. module: partner_title_order
-#: model:ir.model.fields,field_description:partner_title_order.field_res_partner_title____last_update
-msgid "Last Modified on"
-msgstr "Última Modificación el"
-
-#. module: partner_title_order
 #: model:ir.model,name:partner_title_order.model_res_partner_title
 msgid "Partner Title"
 msgstr "Título de Socio"
@@ -40,3 +25,12 @@ msgstr "Título de Socio"
 #: model:ir.model.fields,field_description:partner_title_order.field_res_partner_title__sequence
 msgid "Sequence"
 msgstr "Secuencia"
+
+#~ msgid "Display Name"
+#~ msgstr "Mostrar Nombre"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última Modificación el"
