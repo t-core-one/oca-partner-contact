@@ -28,7 +28,8 @@ Partner Industry Secondary
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module adds secondary industries for partners.
+This module adds a second field *Secondary Industries* behind the Odoo core one *Main Industry*.
+Also this module allow hierarchy of industries.
 
 **Table of contents**
 
@@ -45,7 +46,11 @@ To manage industries, you need to:
 By default only companies have industries. To activate industries in individuals also,
 you need to activate the following setting:
 
-* Go to *Settings > General Settings > Partner Industries > Industry in contacts > Use industry for individuals*
+* Go to *Settings > General Settings > Contacts > Enable industries for individuals*
+
+To display Child Industries first, you need to activate the following setting:
+
+* Go to *Settings > General Settings > Contacts > Display Child Industries first*
 
 Usage
 =====
@@ -53,6 +58,7 @@ Usage
 To use this module, you need to:
 
 * Go to any partner's form.
+* Set the secondary industries.
 
 Bug Tracker
 ===========
@@ -84,6 +90,7 @@ Contributors
 * Jordi Ballester Alomar <jordi.ballester@eficent.com>
 * Miquel Raïch <miquel.raich@eficent.com>
 * Cristina Martin R.
+* Eduardo de Miguel <hola@moduon.team> (`Moduon <https://www.moduon.team/>`__)
 
 Maintainers
 ~~~~~~~~~~~
