@@ -18,5 +18,6 @@
         "views/res_partner_department_view.xml",
         "views/res_partner_view.xml",
     ],
+    "maintainers": ["rafaelbn", "yajo"],
     "installable": True,
 }
