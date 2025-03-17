@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-31 03:41+0000\n"
-"PO-Revision-Date: 2025-03-17 12:31+0000\n"
+"PO-Revision-Date: 2025-03-17 12:57+0000\n"
 "Last-Translator: davidbeckercbl <becker@cbl-computer.de>\n"
 "Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
 "Language: de\n"
@@ -107,6 +107,9 @@ msgid ""
 " {name} \n"
 "({error})"
 msgstr ""
+"Fehler bei der Prüfung des Validierungsprogramms für die Ausweiskategorie: \n"
+" {name} \n"
+"({error})"
 
 #. module: partner_identification
 #: model:ir.model.fields,help:partner_identification.field_res_partner_id_number__valid_until
@@ -115,8 +118,7 @@ msgid ""
 "license, 21/10/2019"
 msgstr ""
 "Ablaufdatum. Zum Beispiel das Datum, an dem jemand seinen Führerschein "
-"erneuern muss,\n"
-"21. 10. 2019"
+"erneuern muss, 21. 10. 2019"
 
 #. module: partner_identification
 #: model:ir.model.fields.selection,name:partner_identification.selection__res_partner_id_number__status__close
@@ -221,9 +223,8 @@ msgstr "Ausweiskategorien von Partnern"
 
 #. module: partner_identification
 #: model:ir.model,name:partner_identification.model_res_partner_id_category
-#, fuzzy
 msgid "Partner ID Category"
-msgstr "Ausweiskategorien von Partnern"
+msgstr "Partner Ausweiskategorie"
 
 #. module: partner_identification
 #: model:ir.model,name:partner_identification.model_res_partner_id_number
@@ -295,6 +296,9 @@ msgid ""
 "write via the {field_name} field is not possible. In order to fix this, "
 "please use the IDs tab."
 msgstr ""
+"{record_name} hat mehrere IDs für diesen Typ ({category_code}), daher ist "
+"ein Schreiben in das Feld {field_name} nicht möglich. Bitte benutzen Sie "
+"stattdessen den Ausweisnummern-Reiter."
 
 #. module: partner_identification
 #: model:ir.model.fields.selection,name:partner_identification.selection__res_partner_id_number__status__pending
@@ -321,7 +325,7 @@ msgstr "Anfangsdatum der Prüfperiode."
 #: code:addons/partner_identification/models/res_partner_id_category.py:0
 #, python-format
 msgid "{id_name} is not a valid {cat_name} identifier"
-msgstr ""
+msgstr "{id_name} ist keine gültige {cat_name} Identifikation"
 
 #, python-format
 #~ msgid "%s is not a valid %s identifier"
